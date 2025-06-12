@@ -14,7 +14,6 @@ spec:
         replicaCount: 2
         image:
           tag: stable
-
   destination:
     server: https://kubernetes.default.svc
     namespace: app1
