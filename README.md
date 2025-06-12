@@ -133,6 +133,8 @@ spec:
     automated:
       prune: true
       selfHeal: true
+    syncOptions:
+      - CreateNamespace=true
 ```
 
 2. Create the App of Apps manifest in `app-of-apps.yaml`:
