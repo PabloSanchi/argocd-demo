@@ -73,6 +73,8 @@ Then access the UI at `https://localhost:8080`
 - Navigate to the ArgoCD namespace
 - Expose `argocd-server` service
 
+<img alt="port forwarding in openlens" src="imgs/port-forwarding-open-lens.png" />
+
 Default credentials:
 - Username: `admin`
 - Password: Get it using:
@@ -168,6 +170,10 @@ git push origin main
 ```bash
 kubectl apply -f app-of-apps.yaml
 ```
+
+3. Result
+<img alt="argo applications overview" src="imgs/argo-dashboard.png" />
+<img alt="app1 ngix view" src="imgs/app1-nginx.png" />
 
 ## Understanding the App of Apps Pattern
 
