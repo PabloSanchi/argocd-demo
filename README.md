@@ -176,7 +176,11 @@ kubectl apply -f app-of-apps.yaml
 ```
 
 3. Result
+- Argo applications overview dashboard
 <img alt="argo applications overview" src="imgs/argo-dashboard.png" />
+- App of Apps application view
+<img alt="app of apps argo applications view" src="imgs/app-of-apps-view.png" />
+- App1 nginx overview
 <img alt="app1 ngix view" src="imgs/app1-nginx.png" />
 
 ## Understanding the App of Apps Pattern
