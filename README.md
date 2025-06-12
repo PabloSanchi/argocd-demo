@@ -1,6 +1,6 @@
 # ArgoCD App of Apps Pattern
 
-This guide demonstrates how to set up ArgoCD using the App of Apps pattern, which allows you to manage multiple applications through a single parent application. This pattern is particularly useful for managing multiple microservices or applications in a GitOps workflow.
+This guide demonstrates how to set up ArgoCD using the [App of Apps pattern](https://argo-cd.readthedocs.io/en/latest/operator-manual/cluster-bootstrapping/#app-of-apps-pattern), which allows you to manage multiple applications through a single parent application. This pattern is particularly useful for managing multiple microservices or applications in a GitOps workflow.
 
 > **Important Note**: This is a simplified demo setup. In a production environment, it's recommended to:
 > - Separate the ArgoCD app-of-apps deployment into a dedicated infrastructure repository
