@@ -26,6 +26,8 @@ The following tools are required:
 - Docker (for container runtime)
 - kubectl (for Kubernetes interaction)
 
+> Note: the machine used is not imporant, and will not change how the demo is performed.
+
 ## Step-by-Step Installation Guide
 
 ### 1. Create a Local Kubernetes Cluster
